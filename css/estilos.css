@@ -1,0 +1,158 @@
+h2 {
+    text-align: center;
+}
+
+.padre {
+    background-color: deepskyblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    border: #2B303D;
+    border-style: outset;
+}
+
+.hijo {
+    background: lightgreen;
+    border: #3F858C;
+    font-size: 40px;
+    border: #2B303D;
+    border-style: outset;
+}
+
+.hijo1 {
+    background: lightgreen;
+    border: #3F858C;
+    font-size: 40px;
+    grid-column: 1/5;
+    border: #2B303D;
+    border-style: outset;
+}
+
+.hijo2 {
+    background: lightgreen;
+    border: #3F858C;
+    font-size: 40px;
+    grid-column: 1/3;
+    border: #2B303D;
+    border-style: outset;
+}
+
+.hijo3 {
+    background: lightgreen;
+    border: #3F858C;
+    font-size: 40px;
+    grid-column: 2/5;
+    border: #2B303D;
+    border-style: outset;
+}
+
+.hijo4 {
+    background: lightgreen;
+    border: #3F858C;
+    font-size: 40px;
+    grid-column: 1/3;
+    border: #2B303D;
+    border-style: outset;
+}
+
+.hijo5 {
+    background: lightgreen;
+    border: #3F858C;
+    font-size: 40px;
+    grid-column: 3/5;
+    border: #2B303D;
+    border-style: outset;
+}
+
+.hijo51 {
+    background: lightgreen;
+    border: #3F858C;
+    font-size: 40px;
+    border: #2B303D;
+    grid-row: 1 / 2;
+    border-style: outset;
+}
+
+.hijo52 {
+    background: lightgreen;
+    border: #3F858C;
+    font-size: 40px;
+    border: #2B303D;
+    grid-row: 2 / 3;
+    border-style: outset;
+}
+
+
+
+.contenedor {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caja_1 {
+    background: #3F858C;
+    border: #2B303D;
+    margin: 5px;
+    border-style: outset;
+    width: 600px;
+    height: 230px;
+}
+
+.caja_2 {
+    background: #7AB8BF;
+    border: #2B303D;
+    margin: 5px;
+    border-style: outset;
+    width: 600px;
+    height: 230px;
+
+}
+
+.caja_21 {
+    display: flex;
+
+}
+
+.caja_21_1 {
+    background: #C1D9A9;
+    width: 590px;
+    height: 98px;
+    margin: 5px;
+    border: #2B303D;
+    margin: 5px;
+    border-style: outset;
+}
+
+.caja_22 {
+    display: flex;
+}
+
+.caja_22_1 {
+    background: #C1D9A9;
+    width: 590px;
+    height: 98px;
+    margin: 5px;
+    border: #2B303D;
+    margin: 5px;
+    border-style: outset;
+}
+
+.caja_22_2 {
+    background: #C1D9A9;
+    width: 590px;
+    height: 98px;
+    margin: 5px;
+    border: #2B303D;
+    margin: 5px;
+    border-style: outset;
+}
+
+.caja_3 {
+    background: #C4EEF2;
+    border: #2B303D;
+    margin: 5px;
+    border-style: outset;
+    width: 600px;
+    height: 230px;
+}
